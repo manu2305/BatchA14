@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="Execution1.HomePage">
+        <methods>
+          <include name="mi"/>
+        </methods>
+      </class> <!-- Execution1.HomePage -->
+      <class name="Execution2.copy.Computer">
+        <methods>
+          <include name="mi"/>
+        </methods>
+      </class> <!-- Execution2.copy.Computer -->
+      <class name="Execution1.Login">
+        <methods>
+          <include name="mi"/>
+        </methods>
+      </class> <!-- Execution1.Login -->
+      <class name="Execution1.Books">
+        <methods>
+          <include name="mi"/>
+        </methods>
+      </class> <!-- Execution1.Books -->
+      <class name="Execution2.copy.Electronic">
+        <methods>
+          <include name="mi"/>
+        </methods>
+      </class> <!-- Execution2.copy.Electronic -->
+      <class name="Execution2.copy.Apparel">
+        <methods>
+          <include name="mi"/>
+        </methods>
+      </class> <!-- Execution2.copy.Apparel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
